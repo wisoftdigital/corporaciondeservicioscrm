@@ -1,0 +1,95 @@
+body {
+    background-color: #f9f9f9; /* Color de fondo más claro */
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-navbar {
+    background-color: #ffffff; 
+}
+.navbar-nav .nav-item .nav-link {
+    color: black; /* Cambia el color del texto a negro */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #555; /* Cambia el color al pasar el mouse (opcional) */
+}
+
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link.active {
+    color: #002A5C; /* Cambia el color a azul Rotary */
+    background-color: rgba(0, 0, 0, 0.1); /* Opción de fondo al seleccionar */
+    border-radius: 10px;
+}
+
+.brand-img {
+    width: 50px; /* Ajustar el tamaño del logo */
+}
+
+.header {
+    height: 70vh; /* Altura del header */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    position: relative; /* Posiciona el contenedor */
+    color: white; /* Color del texto dentro del header */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.has-img-bg {
+    width: 100%; /* Ajusta el tamaño de la imagen al 70% del contenedor */
+    max-width: 600px; /* Limita el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay oscuro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2, h3 {
+    font-weight: 700; /* Hacer títulos más prominentes */
+}
+
+.bg-dark {
+    background-color: #002A5C !important; /* Azul Rotary */
+}
+.brand-img {
+    width: 250px; /* Cambia este valor según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.navbar-nav .nav-link {
+    padding: 15px 25px; /* Ajustar el padding superior/inferior y izquierdo/derecho */
+    font-size: 1.1rem; /* Ajustar el tamaño de fuente si es necesario */
+}
+
+
+.text-light {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.btn-primary {
+    background-color: #FBCB0A; /* Amarillo Rotary */
+    border-color: #FBCB0A; /* Amarillo Rotary */
+}
+
+.btn-primary:hover {
+    background-color: #e6a800; /* Hover efecto */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
